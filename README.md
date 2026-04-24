@@ -14,18 +14,6 @@ Igor Skiba, Radosław Rytel-Kuc
 
 ---
 
-## 📄 Publikacja naukowa
-
-Na bazie tego projektu powstał **artykuł naukowy**:
-
-> **„Zarządzanie politykami sieciowymi w systemie Kubernetes: Analiza i wdrożenie w architekturze trójwarstwowej"**  
-> *Igor Skiba, Instytut Telekomunikacji, Politechnika Warszawska*  
-> `igor.skiba.stud@pw.edu.pl`
-
-Artykuł szczegółowo opisuje analizę podatności domyślnej sieci Kubernetes, projekt reguł izolacji opartych na CNI Cilium oraz eksperymentalną weryfikację ich skuteczności. Kierowany jest do inżynierów wdrażających rozwiązania cloud-native.
-
----
-
 ## 📋 Opis projektu
 
 Projekt demonstruje pełny cykl zabezpieczania komunikacji wewnątrz klastra Kubernetes poprzez implementację **polityk sieciowych**. Domyślna, płaska sieć Kubernetes pozwala na swobodną komunikację każdego poda z każdym - projekt udowadnia to zagrożenie i skutecznie je eliminuje.
